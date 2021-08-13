@@ -1,0 +1,379 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* border: red 2px solid; */
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header1{
+    align-items: center;
+    background-color:#222222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 1.5rem;
+    padding: 0 1rem 0;
+}
+
+/* .menu{
+    align-self: center;
+} */
+
+.header2{
+    align-items: center;
+    background-color: #F0A83E;
+    color: white;
+    display: flex;
+    height: 62px;
+    justify-content: space-between;
+    padding: 1.2rem 2.5rem;
+}
+
+.menuList{
+    /* display: flex; */
+    /* justify-content: space-evenly;
+    flex-wrap: wrap; */
+    list-style-type: none;
+}
+
+.menuList li{
+    float: right;
+    margin-left: 1rem;
+}
+
+li a {
+    /* display: block; */
+    color: white;
+    text-align: center;
+    /* padding: 10px; */
+    text-decoration: none;
+}
+
+header .menuButton{
+    display: none;
+    color:white;
+    font-size: 2rem;
+}
+
+
+.logo{
+    align-self: center;
+}
+
+.banner{
+    align-items: center;
+    background-image: url('../img/bowl-and-pet-daities-on-green-background-1.png');
+    height: 410px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner .bigletters1{
+    background-color: white;
+    border-radius: 5px;
+    font-size: 1.9rem;
+    padding: 0.6rem;
+    text-align: center;
+}
+
+.banner .bigletters2{
+    background-color: #F0A83E;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    padding: 1rem 1.4rem;
+}
+
+.banner > * {
+    position: relative;
+    left: 30%;
+}
+
+#fondologo{
+    background-color: #F0A83E;
+}
+
+.headerSectionTwo{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 200px;
+}
+
+.headerSectionTwo h1{
+    color: #3C2313;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+.productListItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#FBFAF6;
+    margin: 0.6rem;
+    padding-bottom: 0.5rem;
+}
+
+.productListItem .itemDesc{
+    color: #3C2313;
+    font-weight: bold;
+}
+
+.productListItem .precios{
+    color:#F0A83E;
+}
+
+.form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+    justify-content: space-evenly;
+    
+}
+
+.form h2{
+    font-size: 2rem;
+    /* margin: 1.4rem; */
+}
+
+.form form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 12rem;
+    justify-content: space-evenly;
+}
+
+.form input{
+    background-color: #3C2313;
+    border-radius: 14px;
+    border: none;
+    margin: 0.3rem 0;
+    padding: 0.5rem;
+    height: 2.6rem;
+    width: 26rem;
+}
+
+.form input::placeholder{
+    color: white;
+}
+
+.form .formButtons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+
+.form .btn{
+    font-size: 1.2rem;
+    border-radius: 20px;
+    margin: 0.4rem;
+    height: 2.6rem;
+    padding: 0.5rem;
+    width: 8rem;
+}
+
+.form .btnRst{
+    background-color:#8A8787;
+    border: none;
+    color: white;
+}
+
+.form .btnSmt{
+    background-color: #F0A83E;
+    border: none;
+    color: white;
+}
+
+
+.footerTop{
+    background-color: #F0A83E;
+    /* height: 70px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.footerTop .suscribe{
+    align-items: center;
+    display: flex;
+    color: white;
+    font-size: 1.5rem;
+    justify-content: space-evenly;
+}
+
+.footerTop p{
+    margin: 0.6rem;
+}
+
+.footerTop .suscribeForm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerTop .btn{
+    background-color: #3C2313;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    height: 2.6rem;
+    font-weight: bold;
+    margin-right: 3rem;
+    /* margin-left: 1rem; */
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.footerTop input{
+    /* background-color: #3C2313; */
+    border-radius: 14px;
+    border: none;
+    margin: 0.3rem;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    height: 2.6rem;
+    width: 18rem;
+}
+
+.footerMiddle{
+    background-color:#3C2313;
+    height: 284px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.9rem 1rem;
+}
+
+.footerMiddle .contactInformation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 2rem;
+}
+
+.footerMiddle .location{
+    display: flex;
+    align-items: center;
+}
+
+.footerMiddle .telephone{
+    display: flex;
+    align-items: center;
+}
+
+.footerMiddle .mail{
+    display: flex;
+    align-items: center;
+}
+
+.footerMiddle .locationCaption{
+    margin: 1rem;
+}
+
+.footerMiddle .telephoneCaption{
+    margin: 1rem;
+}
+
+.footerMiddle .mailCaption{
+    margin: 1rem;
+}
+
+.footerMiddle h3{
+    color: white;
+    font-size: 1.3rem;
+}
+
+.footerMiddle p{
+    color: gray;
+    font-size: 0.8rem;
+}
+
+.footerBottom{
+    align-items: center;
+    background-color: #222222;
+    color: white;
+    display: flex;
+    font-size: 0.8rem;
+    height: 1.5rem;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Smartphone */
+
+@media(max-width: 468px){
+    
+    .header1{
+        display: none;
+    }
+    header .menuButton{
+        display: block;
+    }
+
+    .header2 .menuList{
+        display: none;
+    }
+
+    .banner > * {
+        position: static;
+        /* left: 0%; */
+    }
+
+    .headerSectionTwo h1{
+        text-align: center;
+    }
+
+    .footerTop .suscribeForm{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .footerTop input{
+        width: 12rem;
+    }
+
+    .footerTop .btn{
+        margin: 1rem 0;
+    }
+
+
+    .form input{
+        width: 70vw;
+    }
+
+    .footerMiddle{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerMiddle .contactInformation{
+        order: 1;
+    }
+}
